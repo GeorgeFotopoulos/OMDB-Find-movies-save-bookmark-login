@@ -2,7 +2,6 @@
 
 
 
-# Project Title
 
 Simple web app that has some simple but interesting functions: Login/register, Search movies, Add to bookmarks/remove
  
