@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>My Bookmarks</title>
+    <link rel="stylesheet" type="text/css" href="css/mybookmarks.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script defer src="js/mybookmarks.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="header2">
+            <ul>
+                <li><a id="log">Log In</a></li>
+                <li><a class="active" href="mybookmarks.html">My Bookmarks</a></li>
+                <li><a href="index.html">Search Movies</a></li>
+            </ul>
+
+        </div>
+    </header>
+
+    <p id="welcome_message" style="color:white; position:relative; top:-41px; float: right; margin:0; padding-right:10px; padding-top: 10px;"></p><br>
+    <div class="container">
+        <div id="movies" class="row">
+        </div>
+    </div>
+    <div id="bookmarks-error-msg-holder">
+        <p id="bookmarks-error-msg">In order to view Bookmarks, you need to be logged in!</p>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+</html>

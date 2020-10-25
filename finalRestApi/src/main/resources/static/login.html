@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Log In</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script defer src="js/login-page.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="header2">
+            <ul>
+                <li><a class="active" href="login.html">Log In</a></li>
+                <li><a href="mybookmarks.html">My Bookmarks</a></li>
+                <li><a href="index.html">Search Movies</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <form id="form-container">
+        <div class="user-img"></div>
+        <ul class="list">
+            <li style="font-size: 24px;">Member Login</li>
+            <li><input type="text" name="email" id="email-field" class="login-form-field" placeholder="E-mail"></li>
+            <li><input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password"></li>
+            <li><input type="submit" value="Log In" id="login-form-submit"></li>
+        </ul>
+        <div id="clickable">No account yet? Register</div>
+    </form>
+
+    <div id="login-error-msg-holder">
+        <p id="login-error-msg"> Invalid E-mail
+            <span id="error-msg-second-line">and/or Password!</span>
+        </p>
+    </div>
+</body>
+
+</html>
