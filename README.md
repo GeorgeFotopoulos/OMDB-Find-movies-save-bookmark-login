@@ -7,7 +7,7 @@ Simple web app that has some simple but interesting functions: Login/register, S
  
 ## Description
 
-the project contains all the MVC backend (Restful and ready to recieve ajax calls).
+the project contains the MVC backend (Restful and ready to recieve ajax calls).
 These calls are sent from javascript.
 All the html, js ,css files are at  "...\finalRestApi\src\main\resources\static"
 
